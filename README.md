@@ -48,7 +48,7 @@ The project includes a dynamic homepage, custom post types, ACF fields, responsi
 
 1. Download or clone this repository into your `wp-content/themes/` directory:
    ```
-   git clone https://github.com/your-repo-url/growmodo-theme.git
+   git clone https://github.com/NicoPerz27/Growmodo_app.git
    ```
 
 2. Activate the theme in **WordPress Dashboard → Appearance → Themes**.
@@ -86,5 +86,5 @@ If local, include instructions to run via LocalWP, XAMPP, or Docker.
 ## ✍️ Author
 
 Developed as part of the Growmodo Technical Trial.  
-Created by **[Your Name]**.
+Created by **Nicolas Perez**.
 
