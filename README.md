@@ -1,95 +1,90 @@
-Custom WordPress Real Estate Theme
-Overview
+# Growmodo Real Estate – Custom WordPress Theme
 
-This project is a custom WordPress theme developed based on a provided Figma design. It includes dynamic content, custom post types, responsive layouts, Swiper.js carousels, and fully editable property data using ACF fields.
+A custom WordPress theme developed for the Growmodo technical challenge.  
+The project includes a dynamic homepage, custom post types, ACF fields, responsive layouts, and a properties carousel powered by Swiper.js.
 
-The goal was to replicate the UI as closely as possible within a 4-hour time-boxed technical test, focusing on clean structure, dynamic data, and performance-friendly code.
+---
 
-Features
-✔ Custom WordPress Theme
+## 🚀 Features
 
-Fully hand-coded theme (no builders).
+- Custom WordPress Theme (no starter theme)
+- Custom Post Type: **Properties**
+- Dynamic sections connected to ACF fields
+- Fully responsive layout (mobile-first)
+- Featured Properties carousel with Swiper.js
+- Custom navigation menus (Header + Footer)
+- Figma design faithfully implemented
+- Clean, organized file structure
 
-Responsive layout matching the Figma design.
+---
 
-Shared header/footer + page-specific sections.
+## 📂 Theme Structure
 
-✔ Custom Post Type: Properties
+```
+/growmodo-theme
+│── assets/
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+│── templates/
+│── functions.php
+│── style.css
+│── index.php
+│── single-property.php
+│── archive-property.php
+```
 
-property CPT with archive and single templates.
+---
 
-Custom fields for price, description, address, bedrooms, bathrooms, type, and 5 images.
+## 🧩 Plugins Used
 
-Managed with ACF (free version).
+- **Advanced Custom Fields (ACF)** – Field groups for property details
+- **Swiper.js** – Carousel for Featured Properties
 
-✔ Dynamic Property Carousel
+---
 
-Swiper.js slider integrated dynamically.
+## ⚙️ Installation
 
-Breakpoints: 1 slide (mobile), 2 slides (tablet), 3 slides (desktop).
+1. Download or clone this repository into your `wp-content/themes/` directory:
+   ```
+   git clone https://github.com/your-repo-url/growmodo-theme.git
+   ```
 
-Custom navigation styling.
+2. Activate the theme in **WordPress Dashboard → Appearance → Themes**.
 
-✔ Menus
+3. Install required plugins:
+   - ACF (free)
 
-Primary navigation.
+4. Go to **Custom Fields → Field Groups**  
+   The "Property Info" field group loads automatically (registered via PHP).
 
-Multi-column footer menus (dynamic via WP Menu Manager).
+5. Start creating properties under **Properties → Add New**.
 
-✔ Styling & Performance
+---
 
-Clean CSS with variables.
+## ▶️ Demo
 
-Mobile-first responsive layout.
+If hosted publicly, add the URL here:
 
-Minimal JS, only for Swiper and menu behavior.
+**Live Demo:** _coming soon_
 
-Tech Stack
+If local, include instructions to run via LocalWP, XAMPP, or Docker.
 
-WordPress
+---
 
-PHP
+## 🛠️ Development Notes
 
-HTML5 / CSS3
+- Built from scratch without a theme builder.
+- CSS is minimal and modular.
+- ACF fields registered programmatically in `functions.php`.
+- Swiper initialized with breakpoints for responsive behavior.
+- Theme optimized for speed and clean code.
 
-JavaScript
+---
 
-Swiper.js
+## ✍️ Author
 
-ACF (Free)
+Developed as part of the Growmodo Technical Trial.  
+Created by **[Your Name]**.
 
-Google Fonts
-
-Installation
-
-Clone the repository into /wp-content/themes/.
-
-Activate the theme from the WordPress Admin Panel.
-
-Install and activate Advanced Custom Fields (ACF).
-
-Go to Appearance → Menus and assign all theme menu locations.
-
-Add properties in Properties → Add New.
-
-Development Choices
-
-Custom theme vs. child theme:
-A ground-up custom theme was chosen for full design control.
-
-ACF for property data:
-Allows fast structured content without writing custom meta boxes.
-
-Swiper.js for sliders:
-Lightweight, responsive, and configurable.
-
-CSS custom variables:
-Ensures consistent theming and easier maintenance.
-
-Demo
-
-Provide either:
-
-Live URL, or
-
-Instructions for running locally using LocalWP / XAMPP / MAMP.
