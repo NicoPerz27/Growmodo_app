@@ -65,8 +65,6 @@ The project includes a dynamic homepage, custom post types, ACF fields, responsi
 
 ## ▶️ Demo
 
-If hosted publicly, add the URL here:
-
 **Live Demo:** _coming soon_
 
 If local, include instructions to run via LocalWP, XAMPP, or Docker.
